@@ -1,0 +1,14 @@
+CREATE DATABASE crud3;
+USE crud3;
+
+CREATE TABLE persona (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombres VARCHAR(100),
+    apellidos VARCHAR(100),
+    f_inscripcion VARCHAR(100),
+    t_menbresia varchar(100),
+    edad varchar(100),
+    celular varchar(12),
+    monto_pagar varchar(100),
+    DNI VARCHAR(8)
+);
